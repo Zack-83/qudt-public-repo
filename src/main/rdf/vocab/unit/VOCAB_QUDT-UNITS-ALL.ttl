@@ -447,8 +447,8 @@ unit:A-PER-GM
 
 unit:A-PER-J
   a qudt:Unit ;
-  dcterms:description """$\\textit{Ampere per Joule}$ is the inverse measure of $joule-per-ampere$ or $weber$.
-  The measure for the reciprical of magnetic flux.
+  dcterms:description """$\\textit{Ampere per Joule}$ is the inverse of $joule-per-ampere$ or $weber$.
+  It is a measurement unit for the reciprocal of magnetic flux.
   """^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -34991,6 +34991,9 @@ unit:MIN-PER-NUM
   rdfs:label "Minute per Number"@en .
 
 unit:MIN_Angle
+  dcterms:description """An arcminute, minute of arc, or minute arc (MOA), is a unit of angle equal to one sixtieth (1/60) of one degree, or 1/21600 of a turn, or $\\pi /10800$ radians, or 60 arcseconds.
+                         The SI symbol for arcminute is '.
+                         Not to be confused with the time minute (unit:MIN), which is a unit of measurement of time, equal to 60 seconds or to 1/60 of a hour."""^^qudt:LatexString ;
   a qudt:Unit ;
   dcterms:description """
   An arcminute, minute of arc, or minute arc (MOA), is a unit of angle equal to one sixtieth (1/60) of one degree, or 1/21600 of a turn, or $\\pi /10800$ radians, or 60 arcseconds.
@@ -53647,7 +53650,7 @@ unit:PER-RAD
 
 unit:PER-SEC
   a qudt:DerivedUnit, qudt:Unit ;
-  dcterms:description "A reciprical unit of time for $\\textit{reciprocal second}$ or $\\textit{inverse second}$. The $\\textit{Per Second}$ is a unit of rate."^^qudt:LatexString ;
+  dcterms:description "A unit of reciprocal time, also called $\\textit{reciprocal second}$ or $\\textit{inverse second}$. The $\\textit{Per Second}$ is a unit of rate."^^qudt:LatexString ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -65725,5 +65728,3 @@ voag:QUDT-UNITS-VocabCatalogEntry
   a vaem:CatalogEntry ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
   rdfs:label "QUDT Units Vocab Catalog Entry" .
-
-
