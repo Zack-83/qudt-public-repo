@@ -692,3 +692,4 @@ and this project is in the process of adopting [Semantic Versioning](https://sem
 [2.1.47]: https://github.com/qudt/qudt-public-repo/compare/v2.1.46...v2.1.47
 [2.1.46]: https://github.com/qudt/qudt-public-repo/compare/v2.1.45...v2.1.46
 [2.1.45]: https://github.com/qudt/qudt-public-repo/compare/v2.1.44...v2.1.45
+
