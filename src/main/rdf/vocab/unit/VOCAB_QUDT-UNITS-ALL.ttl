@@ -65725,3 +65725,5 @@ voag:QUDT-UNITS-VocabCatalogEntry
   a vaem:CatalogEntry ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
   rdfs:label "QUDT Units Vocab Catalog Entry" .
+
+
